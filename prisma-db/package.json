@@ -6,5 +6,6 @@
   },
   "dependencies": {
     "@prisma/client": "^2.13.0"
-  }
+  },
+  "main": "src/index.ts"
 }
