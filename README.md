@@ -8,4 +8,5 @@ The goal of this example to show a simple monorepo setup with Prisma. The `Prism
 git clone git@github.com:nikolasburk/monorepo-prisma.git
 cd monorepo-prisma
 yarn
+yarn server:dev
 ```

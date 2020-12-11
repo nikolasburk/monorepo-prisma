@@ -1,10 +1,9 @@
 import { prisma } from 'prisma-db'
-import * as bodyParser from 'body-parser'
 import express from 'express'
 
 const app = express()
 
-app.use(bodyParser.json())
+app.use(express.json())
 
 app.post(`/user`, async (req, res) => {
   const result = await prisma.user.create({
