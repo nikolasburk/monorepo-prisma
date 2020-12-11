@@ -1,6 +1,6 @@
 # Monorepo Prisma example
 
-The goal of this example to show a simple monorepo setup with Prisma. The `PrismaClient` instance is created in the `prisma-db` package and can be accessed by other packages in the monorepo.
+The goal of this example to show a simple monorepo setup with Prisma. The `PrismaClient` instance is created in the `prisma` package and can be accessed by other packages in the monorepo.
 
 ## Usage
 

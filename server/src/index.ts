@@ -1,4 +1,4 @@
-import { prisma } from "prisma-db";
+import { prisma } from "prisma";
 import express from "express";
 
 const app = express();
