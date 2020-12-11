@@ -1,5 +1,5 @@
 {
-  "name": "prisma",
+  "name": "prisma-db",
   "version": "1.0.0",
   "devDependencies": {
     "@prisma/cli": "^2.13.0"

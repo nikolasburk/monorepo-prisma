@@ -2,7 +2,7 @@
   "private": true,
   "name": "monorepo-prisma",
   "workspaces": [
-    "prisma",
+    "prisma-db",
     "server"
   ],
   "scripts": {},
