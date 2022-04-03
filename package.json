@@ -6,7 +6,8 @@
     "server"
   ],
   "scripts": {
-    "server:dev": "ts-node server/src/index.ts"
+    "build": "yarn workspaces run build",
+    "dev": "yarn workspaces run dev"
   },
   "devDependencies": {
     "@types/node": "^14.14.12",
