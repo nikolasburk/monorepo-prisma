@@ -2,12 +2,13 @@
   "private": true,
   "name": "monorepo-prisma",
   "workspaces": [
-    "prisma",
-    "server"
+    "packages/*",
+    "apps/*"
   ],
   "scripts": {
     "build": "yarn workspaces run build",
-    "dev": "yarn workspaces run dev"
+    "dev": "yarn workspaces run dev",
+    "start": "yarn workspaces run start"
   },
   "devDependencies": {
     "@types/node": "^14.14.12",

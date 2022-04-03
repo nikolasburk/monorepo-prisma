@@ -1,4 +1,4 @@
-import { prisma } from "prisma";
+import { prisma } from "@app/prisma";
 import express from "express";
 
 const app = express();
