@@ -1,0 +1,17 @@
+{
+  "name": "@app/prisma",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npx prisma generate && rm -rf dist/* && tsc -p tsconfig.pkg.json",
+    "dev": "npx prisma generate && npx prisma db push",
+    "start": "echo 'nothing to do'"
+  },
+  "dependencies": {
+    "prisma": "3.11.1"
+  },
+  "devDependencies": {
+    "@prisma/client": "3.11.1"
+  }
+}

@@ -1,4 +1,4 @@
-import { prisma } from "prisma";
+import { prisma } from "@app/prisma";
 import express from "express";
 
 const app = express();
@@ -48,7 +48,7 @@ app.delete(`/post/:id`, async (req, res) => {
 
 app.get(`/post/:id`, async (req, res) => {
   const { id } = req.params;
-  const post = await prisma.post.findOne({
+  const post = await prisma.post.findUnique({
     where: {
       id: Number(id),
     },

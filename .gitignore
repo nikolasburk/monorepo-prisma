@@ -3,3 +3,5 @@ dist/
 *.env*
 .DS_Store
 yarn.lock
+*.db
+.prisma
